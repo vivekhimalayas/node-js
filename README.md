@@ -32,3 +32,8 @@ But because of limitations, I have used only prometheus blackbox exporter to mon
 To collect nodejs metrics, I will either run a below prometheus nodejs exporter to monitor the nodejs application.
 
 https://github.com/siimon/prom-client
+
+We have already put application behind load balancer and hence the traffic can be validated and allowed either via security groups or via firewall like open source or AWS WAF.
+We can setup a private Docker repo or use ECR to keep the docker images safe.
+
+I can also share my prometheus and nodejs docker images if you want it.
